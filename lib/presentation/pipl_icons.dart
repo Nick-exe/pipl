@@ -49,4 +49,12 @@ class Pipl {
       IconData(0xe810, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData calendar_bold =
       IconData(0xe811, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData setting =
+      IconData(0xe812, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData user_double =
+      IconData(0xe813, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData plus =
+      IconData(0xe814, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData search_1 =
+      IconData(0xe815, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }

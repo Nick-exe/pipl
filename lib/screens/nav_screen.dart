@@ -24,16 +24,7 @@ class _NavState extends State<Nav> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
-      appBar: AppBar(
-        title: Text('Home Page'),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [_widgetOptions.elementAt(selectedIndex)],
-        ),
-      ),
+      body: _widgetOptions.elementAt(selectedIndex),
       bottomNavigationBar: PiplBottomNavBar(
         onNavBarItemTap: (index) {
           setState(() {

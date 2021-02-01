@@ -12,9 +12,8 @@ class Pipl extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Pipl',
-      // theme: ThemeData(primarySwatch: Colors.blue),
       theme: basicTheme(),
-      home: Nav(),
+      home: SafeArea(bottom: false, child: Nav()),
     );
   }
 }
